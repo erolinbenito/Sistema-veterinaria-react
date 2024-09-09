@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #efc65d;
+  }
+
+  .navbar--logo{
+    width: 70px;
+    margin-right: 8px;
+  }
+  
+  .navbar--identificacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .navbar--menu{
+    display: flex;
+      align-items: center;
+      gap: 30px;
+  }
+  
+  .navbar--menu-item{
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar--menu-item:hover{
+    text-decoration: underline;
+  }
+  
+  .navbar--user{
+    border-radius: 9999px;
+    height: 70px;
+    width: 100%;
+  }

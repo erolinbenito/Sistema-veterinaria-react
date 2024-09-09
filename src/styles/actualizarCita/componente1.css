@@ -1,0 +1,101 @@
+.actualizar-cita {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #aad3dc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+
+  .detalles-cita {
+    background-color: #aad3dc;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+
+  .detalles-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+
+  .detalle-valor {
+    font-weight: 500;
+  }
+
+  .form-group {
+    margin-bottom: 50px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+
+  .input-icon {
+    position: relative;
+  }
+
+  .calendar-icon {
+    position: absolute;
+    left: 10px;
+    top: 500%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+  }
+
+  input[type="date"] {
+    padding-left: 5px;
+  }
+
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .btn-cancelar, .btn-guardar {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .btn-cancelar {
+    background-color: gris;
+    border: 1px solid #696969;
+    color: #374151;
+  }
+
+  .btn-guardar {
+    background-color: #469387;
+    border: none;
+    color: white;
+  }
+
+  .btn-guardar:hover {
+    background-color: #5f5f61;
+  }

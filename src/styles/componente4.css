@@ -1,0 +1,19 @@
+.componente4 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #aad3dc;
+  border: 3px solid white;
+}
+.componente4--caja {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.componente4--titulo {
+  font-weight: bolder;
+  font-size: 32px;
+  text-align: center;
+}
+.componente4--subtitulo {
+  font-size: 22px;
+}

@@ -1,0 +1,42 @@
+.componente5--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #469387;
+    border: 3px solid white;
+}
+
+.componente5--titulo{
+    margin: 0;
+}
+
+.componente5--subtitulo{
+    margin: 0;
+    padding: 20px 100px;
+}
+
+.container--helpers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #aad3dc;
+  border: 3px solid white;
+}
+
+.helper {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  gap: 5px;
+}
+
+.helper--titulo,
+.helper--subtitulo,
+.helper--link {
+  margin: 0;
+}
+
+.helper--subtitulo{
+    text-align: center;
+}
